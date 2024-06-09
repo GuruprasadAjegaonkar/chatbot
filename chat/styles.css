@@ -1,0 +1,23 @@
+.chat-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.bot-message {
+    color: green;
+}
+
+.user-message {
+    color: blue;
+}
