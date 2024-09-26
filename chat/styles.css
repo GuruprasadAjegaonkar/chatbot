@@ -2,7 +2,7 @@
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
 }
 
 #chat-box {
@@ -15,9 +15,9 @@
 }
 
 .bot-message {
-    color: green;
+    color: rgb(97, 54, 140);
 }
 
 .user-message {
-    color: blue;
+    color: rgb(227, 50, 50);
 }

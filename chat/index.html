@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Chatbot</title>
+    <title>Web-Technology Chatbot</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        body {
+            background-image: url('internet-connection-abstract-sense-of-science-and-technology-graphic-design-background-illustration-vector.jpg'); /* Replace 'your-image-path.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Set body height to 100% of viewport height */
+        }
         #chat-box {
-            max-height: 300px;
+            max-height: 700px;
             overflow-y: scroll;
         }
         .chat-message {
@@ -17,20 +24,27 @@
         .user-message {
             color: blue;
         }
+        /* Added style for the header */
+        .card-header {
+            font-weight: bold;
+            font-size: 40px; /* Adjust size as needed */
+        }
     </style>
 </head>
 <body>
     <div class="container mt-5">
         <div class="card">
+            <center>
             <div class="card-header">
-                Simple Chatbot
+                Web-Technology Chatbot
             </div>
+            </center>
             <div class="card-body" id="chat-box">
                 <!-- Chat messages will be displayed here -->
             </div>
             <div class="card-footer">
                 <div class="input-group">
-                    <input type="text" class="form-control" id="user-input" placeholder="Type your message...">
+                    <input type="text" name="userInput" class="form-control" id="user-input" placeholder="Type your message...">
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button" onclick="sendMessage()">Send</button>
                     </div>
